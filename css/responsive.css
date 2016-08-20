@@ -1,0 +1,133 @@
+	/* Extra Large Devices, Wide Screens */
+    @media only screen and (max-width : 19200px) {
+	.slider-area .small-content {padding: 40px 300px 0;letter-spacing: 21px;font-weight: initial;}
+	.gallery-area .portfolioContainer .single-item .item-overley .item-content {padding: 90px 0;}
+	}
+	/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+	.main-menu-area ul li a {padding: 10px 15px;}
+	.slider-area .small-content {padding: 40px 100px;}
+	.our-class .class-tab li a {padding: 28px 50px;}
+	.gallery-area .portfolioContainer .single-item .item-overley .item-content {padding: 44px 0;}
+	}
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+	.logo-area{	text-align: center;	margin: 20px 0;	}
+	.main-menu-area {  margin: 0 0 30px;}
+	.slider-area .small-content { padding: 30px 0;}
+	.slider-area .down li img {  margin: -10px 0;}
+	.about-area .about-content p { margin: 20px 0;}
+	.our-class .class-tab li a {  padding: 29px 35px;font-size: 15px;}
+	.our-class .tab-content .tab-right-content h3.three-title {font-size: 25px;line-height: 37px;}
+	.gallery-area .portfolioContainer .single-item .item-overley .item-content {padding: 23px 0;}
+	.price-table-area .price-member-plan .single-member-price h2 {font-size: 17px;}
+	.price-table-area .price-member-plan .single-member-price h3 {font-size: 25px;line-height: 25px;}
+	.price-table-area .price-member-plan .single-member-price.second-plan::after {left: -10px;top: -6px;}
+	.contact-us-area .contact-address .single-contact p i {width: 100%;}
+	.contact-us-area .contact-address .single-contact p { text-align: center;}
+    .about-area, .our-class, .trainer-area, .blog-area, .price-table-area, .contact-us-area{padding:60px 0}
+	.gallery-area{padding:60px 0 0}
+    .our-class h2, .trainer-area .section-tilte-area h2, .gallery-area .section-tilte-area h2, .blog-area .section-tilte-area h2, .price-table-area .section-tilte-area h2, .contact-us-area          .section-tilte-area h2{margin:0 0 40px}
+	.our-class .tab-content{margin:30px 0}
+	.blog-area .blog-content-area .single-blog-area ul li {font-size: 13px;margin-right: 0px;}
+.header-area, .logo-area{margin:0 auto;}
+.footer-area .footer-right-social-media ul li a { padding: 5px;}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 767px) {
+	.mobile-menu-area{  display: block;}
+	.header-area{display: none}
+	.logo-area{	text-align: center;	margin: 20px 0;	}
+	.main-menu-area {  margin: 0 0 30px;}
+	.slider-area .big-title, .slider-area .small-content, .slider-area .down li img, .nivo-caption a { display: none !important;}
+	.about-content {  text-align: center;}
+	.our-class .class-tab li {margin: 0;}
+	.our-class .class-tab li a {  font-size: 15px;  padding: 30px 7px;}
+	.our-class .tab-content .tab-right-content h3.three-title {font-size: 50px;line-height: 50px;}
+	.price-table-area .price-member-plan .single-member-price h2 {font-size: 17px;}
+	.price-table-area .price-member-plan .single-member-price h3 {font-size: 25px;line-height: 25px;}
+	.price-table-area .price-member-plan .single-member-price.second-plan::after {left: -10px;top: -6px;}
+	.contact-us-area .contact-address .single-contact p i {width: 100%;}
+	.contact-us-area .contact-address .single-contact p { text-align: center;}
+	.our-class .class-tab li::before, .our-class .class-tab li:first-child::before, .our-class .class-tab li::after, .our-class .class-tab li:last-child::after  {  border: none; }
+	.our-class .class-tab li.active a::after {left: 0;}
+	.our-class .tab-content .tab-right-content, .trainer-content-area {  margin: 20px 0 0;  text-align: center;}
+	.gallery-area .portfolioFilter a {margin-right: 0; padding: 10px 18px;}
+	.blog-area .blog-content-area .single-blog-area, .blog-area .blog-content-area .single-blog-area .read-more, .footer-area .footer-left-text, .footer-area .footer-right-social-media ul {margin: 0 10px;text-align: center;}
+	.price-table-area .price-member-plan .single-member-price {margin: 20px 0;}	
+	.about-area .about-content h2 {font-size: 30px;line-height: 40px;}
+	.our-class h2, .trainer-area .section-tilte-area h2, .gallery-area .section-tilte-area h2, .blog-area .section-tilte-area h2, .price-table-area .section-tilte-area h2, .contact-us-area       .section-tilte-area h2{font-size: 30px;line-height: 40px;}
+	.our-class .tab-content .tab-right-content h3.three-title a{font-size:30px;line-height:40px}
+.our-class .tab-content .tab-right-content h3.three-title {margin-bottom: 10px;}
+.blog-area .blog-content-area .single-blog-area h3 a {  font-size: 15px;line-height:24px;}
+.blog-area .blog-content-area .single-blog-area h3 a { padding: 10px 0 10px;}
+
+
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+	.mobile-menu-area{  display: block;}
+	.header-area{display: none}
+	.logo-area{	text-align: center;	margin: 20px 0;	}
+	.main-menu-area {  margin: 0 0 30px;}
+	.slider-area .big-title, .slider-area .small-content, .slider-area .down li img, .nivo-caption a { display: none !important;}
+	.about-content {  text-align: center;}
+	.our-class .class-tab li a {  font-size: 18px;  padding: 15px 3px;}
+	.our-class .tab-content .tab-right-content h3.three-title {font-size: 50px;line-height: 50px;}
+	.gallery-area .portfolioContainer .single-item .item-overley .item-content {padding: 15px 0;}
+	.price-table-area .price-member-plan .single-member-price h2 {font-size: 17px;}
+	.price-table-area .price-member-plan .single-member-price h3 {font-size: 25px;line-height: 25px;}
+	.price-table-area .price-member-plan .single-member-price.second-plan::after {left: -10px;top: -6px;}
+	.contact-us-area .contact-address .single-contact p i {width: 100%;}
+	.contact-us-area .contact-address .single-contact p { text-align: center;}
+	.our-class .class-tab li::before, .our-class .class-tab li:first-child::before, .our-class .class-tab li::after, .our-class .class-tab li:last-child::after  {  border: none; }
+	.our-class .class-tab li.active a::after {left: 0;}
+	.our-class .tab-content .tab-right-content, .trainer-content-area {  margin: 20px 0 0;  text-align: center;}
+	.gallery-area .portfolioFilter a {margin-right: 0; padding: 10px 8px;font-size: 12px}
+	.blog-area .blog-content-area .single-blog-area, .blog-area .blog-content-area .single-blog-area .read-more, .footer-area .footer-left-text, .footer-area .footer-right-social-media ul {margin: 0 10px;text-align: center;}
+	.price-table-area .price-member-plan .single-member-price {margin: 20px 0;}
+	.footer-area .footer-right-social-media ul li a {padding: 0px;}
+	.footer-area .footer-right-social-media ul li a i { font-size: 15px;}
+	.about-area .about-content h2 {  font-size: 34px;  line-height: 40px;}
+	.our-class h2, .trainer-area .section-tilte-area h2, .gallery-area .section-tilte-area h2, .blog-area .section-tilte-area h2, .price-table-area .section-tilte-area h2, .contact-us-area 			.section-tilte-area h2 {font-size: 30px;line-height: 40px;}
+	.our-class .class-tab li {display: block;margin: 10px 0px;}
+.gallery-area .portfolioContainer .single-item{width:100%;display:block;}
+.gallery-area .portfolioContainer .single-item .item-overley .item-content {  padding: 90px 0;}
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+	.mobile-menu-area{  display: block;}
+	.header-area{display: none}
+	.logo-area{	text-align: center;	margin: 20px 0;	}
+	.main-menu-area {  margin: 0 0 30px;}
+	.slider-area .big-title, .slider-area .small-content, .slider-area .down li img, .nivo-caption a { display: none !important;}
+	.about-content {  text-align: center;}
+	.our-class .class-tab li a {  font-size: 18px;  padding: 15px 3px;}
+	.our-class .tab-content .tab-right-content h3.three-title {font-size: 50px;line-height: 50px;}
+	.gallery-area .portfolioContainer .single-item .item-overley .item-content {padding: 15px 0;}
+	.price-table-area .price-member-plan .single-member-price h2 {font-size: 17px;}
+	.price-table-area .price-member-plan .single-member-price h3 {font-size: 25px;line-height: 25px;}
+	.price-table-area .price-member-plan .single-member-price.second-plan::after {left: -10px;top: -6px;}
+	.contact-us-area .contact-address .single-contact p i {width: 100%;}
+	.contact-us-area .contact-address .single-contact p { text-align: center;}
+	.our-class .class-tab li::before, .our-class .class-tab li:first-child::before, .our-class .class-tab li::after, .our-class .class-tab li:last-child::after  {  border: none; }
+	.our-class .class-tab li.active a::after {left: 0;}
+	.our-class .tab-content .tab-right-content, .trainer-content-area {  margin: 20px 0 0;  text-align: center;}
+	.gallery-area .portfolioFilter a {margin-right: 0; padding: 10px 8px;font-size: 12px}
+	.blog-area .blog-content-area .single-blog-area, .blog-area .blog-content-area .single-blog-area .read-more, .footer-area .footer-left-text, .footer-area .footer-right-social-media ul {margin: 0 10px;text-align: center;}
+	.price-table-area .price-member-plan .single-member-price {margin: 20px 0;}
+	.footer-area .footer-right-social-media ul li a {padding: 0px;}
+	.footer-area .footer-right-social-media ul li a i { font-size: 15px;}
+	.about-area .about-content h2 {  font-size: 34px;  line-height: 40px;}
+	.our-class h2, .trainer-area .section-tilte-area h2, .gallery-area .section-tilte-area h2, .blog-area .section-tilte-area h2, .price-table-area .section-tilte-area h2, .contact-us-area 			.section-tilte-area h2 {font-size: 30px;line-height: 40px;}
+	.our-class .class-tab li {display: block;margin: 10px 0px;}
+.gallery-area .portfolioContainer .single-item{width:100%;display:block;}
+.gallery-area .portfolioContainer .single-item .item-overley .item-content {  padding: 70px 0;}
+	
+    }

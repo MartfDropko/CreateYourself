@@ -1,0 +1,466 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html,
+body {
+  height: 100%;
+}
+.wrapper-area {
+  overflow: hidden;
+}
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+.alignleft {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.alignright {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+a:focus {
+  outline: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.fix {
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 25px;
+}
+h1{
+  font-size: 67px;
+}
+h2{
+  font-size: 41px;
+}
+h3{
+  font-size: 30px;
+}
+
+a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #666666;
+  vertical-align: baseline;
+}
+/*-------------------------------------
+2. Header Area Styling  
+---------------------------------------*/
+.mobile-menu-area {
+  display: none;
+}
+.header-area {
+  margin: 30px 0;
+  position: absolute;
+  z-index: 99;
+  margin: 20px auto;
+  left: 0;
+  right: 0;
+}
+.main-menu-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-menu-area ul li.current {
+  background: aqua;
+}
+.main-menu-area ul li {
+  display: inline-block;
+}
+.main-menu-area ul li a {
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  outline: medium none;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+}
+.main-menu-area ul li a:hover {
+  background: aqua;
+}
+/*----------------------------------
+   2.1 Stiky Menu Styling 
+   -----------------------------------*/
+div#sticker {
+  background: transparent;
+}
+.stick {
+  position: fixed;
+  top: 0px;
+  z-index: 9;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8) !important;
+  margin: 0;
+}
+/*---------------------------------
+  2.2 Scrolling Nav Styling 
+  ---------------------------------*/
+#scrollUp {
+  background: aqua;
+  bottom: 100px;
+  color: #ffffff !important;
+  display: block;
+  font-size: 25px;
+  height: 40px;
+  line-height: 0;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  text-decoration: none !important;
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1) 0s;
+  width: 50px;
+  z-index: 1000;
+}
+#scrollUp:hover {
+  opacity: .7;
+}
+#scrollUp i {
+  display: block;
+  padding-top: 5px;
+}
+/*-------------------------------------
+3.Slider Area Styling  
+---------------------------------------*/
+.slider-area {
+  position: relative;
+}
+.slider-area .big-title {
+  color: #ffffff;
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.slider-area .big-title span.title-builder {
+  color: aqua;
+}
+.slider-area .small-content {
+  padding: 40px 240px;
+  text-align: center;
+}
+.slider-area .button {
+  color: #d1d1d1;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 60%;
+  white-space: normal;
+}
+.slider-area .button .btn-success {
+  background-color: aqua;
+  border-color: #33e179;
+  padding: 15px 35px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 0;
+  outline: none;
+}
+.slider-area .button .btn-success:hover {
+  opacity: .7;
+}
+.slider-area .button .btn-success:hover {
+  background-color: aqua;
+  border-color: aqua;
+  color: #ffffff;
+}
+.slider-area .button2 {
+  color: #d1d1d1;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  bottom: 15%;
+  white-space: normal;
+}
+.slider-area .button2 .btn-success {
+  background-color: aqua;
+  border-color: #33e179;
+  padding: 15px 35px;
+}
+.slider-area .button2 .btn-success:hover {
+  background-color: #449d44;
+  border-color: #398439;
+  color: #ffffff;
+}
+.slider-area .down {
+  text-align: center;
+}
+.slider-area .down li {
+  display: inline-block;
+}
+.slider-area .down li img {
+  position: inherit;
+}
+/*-------------------------------------
+4.About Us Area Start Here 
+---------------------------------------*/
+.about-area {
+  background: rgba(0, 0, 0, 0) url("../img/about_bg.jpg") no-repeat scroll center top / cover;
+  padding: 90px 0 0;
+}
+.about-area .about-content h2 {
+  
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+}
+.about-area .about-content h2 span {
+  color: aqua;
+}
+.about-area .about-content p {
+  color: #7c7c7c;
+ }
+
+/*-------------------------------------
+5.Gallery Section Area Start Here 
+---------------------------------------*/
+.section-tilte-area h2 {
+  font-weight: bold;
+  margin: 0px 0 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gallery-area {
+  padding: 90px 0 0;
+}
+.gallery-area .section-tilte-area h2 {
+  color: #000000;
+  margin-bottom: 60px;
+}
+.gallery-area .portfolioFilter {
+  text-align: center;
+}
+.gallery-area .portfolioFilter a {
+  margin-right: 5px;
+  color: #5b5b5b;
+  text-decoration: none;
+  border: 1px solid aqua;
+  transition: all 0.5s ease 0s;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+.gallery-area .portfolioFilter a.current {
+  color: #ffffff;
+  background: aqua;
+}
+.gallery-area .portfolioFilter a:hover {
+  background: aqua;
+  color: #ffffff;
+}
+.gallery-area .isotope-item {
+  z-index: 2;
+}
+.gallery-area .isotope-hidden.isotope-item {
+ 
+  z-index: 1;
+}
+.gallery-area .isotope,
+.gallery-area .isotope .isotope-item {
+  transition: all 0.5s ease 0s;
+}
+.gallery-area .isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
+}
+.gallery-area .isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
+}
+.gallery-area .portfolioContainer {
+  margin: 49px 0 0;
+}
+.gallery-area .portfolioContainer .single-item {
+  width: 25%;
+  position: relative;
+  overflow: hidden;
+}
+.gallery-area .portfolioContainer .single-item .item-overley {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease 0s;
+  display: block;
+  transform: scale(0.5);
+  z-index: 1;
+}
+.gallery-area .portfolioContainer .single-item .item-overley .item-content {
+  text-align: center;
+  padding: 60px 0;
+  z-index: 99;
+}
+.gallery-area .portfolioContainer .single-item .item-overley .item-content h3 {
+  margin: 0;
+  color: aqua;
+}
+.gallery-area .portfolioContainer .single-item .item-overley .item-content a {
+  color: #dddddd;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+  display: block;
+}
+.gallery-area .portfolioContainer .single-item .item-overley .item-content a:hover {
+  opacity: .7;
+}
+.gallery-area .portfolioContainer .single-item:hover .item-overley {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.gallery-area .portfolioContainer .single-item:hover .item-overley .item-content ul li a i {
+  display: block;
+}
+.gallery-area .portfolioContainer .single-item:hover .item-overley .item-content ul li a i:hover {
+  color: aqua;
+}
+
+/*-------------------------------------
+ 6.Contact Section Area Start Here 
+ --------------------------------------*/
+.contact-us-area {
+  padding: 90px 0 0;
+}
+.contact-us-area .section-tilte-area h2 {
+  color: #000000;
+}
+.contact-us-area .contact-us-top #googleMap {
+  margin-bottom: 65px;
+}
+.contact-us-area .contact-form {
+  margin-bottom: 55px;
+}
+.contact-us-area .contact-form input {
+  height: 60px;
+  margin: 10px 0;
+  border: 1px solid aqua;
+  font-size: 20px;
+}
+.contact-us-area .contact-form textarea {
+  margin: 10px 0;
+  border: 1px solid aqua;
+  font-size: 20px;
+}
+.contact-us-area .contact-form .btn-send {
+  background: aqua;
+  border: none;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 55px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+  margin: 20px 0;
+}
+.contact-us-area .contact-form .btn-send:hover {
+  opacity: .5;
+}
+.footer-area {
+  background: url("../img/footer-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+}
+.contact-us-area .footer-area .section-tilte-area h2 {
+  color: #fff;
+}
+.footer-area .footer-left-text {
+  margin-top: 35px;
+}
+.footer-area .footer-left-text p {
+  text-align: left;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-area .footer-right-social-media {
+  text-align: right;
+}
+.footer-area .footer-right-social-media ul li {
+  display: inline-block;
+}
+.footer-area .footer-right-social-media ul li a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+}
+.footer-area .footer-right-social-media ul li a:hover {
+  color: #dddddd;
+}
+.footer-area .footer-right-social-media ul li a:hover i {
+  color: #ffffff;
+}
+.footer-area .footer-right-social-media ul li a i {
+  display: block;
+  font-size: 25px;
+  color: aqua;
+  transition: all 0.5s ease 0s;
+}
+.footer-area .contact-address {
+  padding: 50px 0;
+}
+.footer-area .contact-address .single-contact p {
+  font-size: 16px;
+  color: #ffffff;
+}
+.footer-area .contact-address .single-contact p i {
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 50px;
+  background: aqua;
+  text-align: center;
+  margin-right: 10px;
+}
