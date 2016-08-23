@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Creator</title>
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+
+<body>
+
+  <header>
+    <nav role="navigation" class="navbar navbar-inverse navbar-static-top">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img href="#" alt="Logo" class="navbar-brand" />
+      </div>
+      <!-- Collection of nav links for toggling -->
+      <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Profile</a></li>
+          <li class="active"><a href="#">Creator of plans</a></li>
+          <li><a href="#">Calculators</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Account settings</a></li>
+          <li><a href="../index.html">Log out</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="creator">
+    <div class="container">
+      <h2>Create your own plan</h2>
+
+
+      <div class="btn-toolbar btn-toolbar-centered" role="toolbar">
+        <div class="btn-group btn-group-lg input-group" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="radio" name="gender" value="men" id="option2" />For Men</label>
+          <label class="btn btn-primary">
+            <input type="radio" name="gender" value="women" id="option3" />For Women</label>
+        </div>
+      </div>
+
+      <form class="form-horizontal">
+        <div class="form-group btn-toolbar-centered">
+          <label for="planName" class="col-sm-4 col-md-4 col-lg-4 control-label">Input name of the plan</label>
+          <div class="col-sm-8 col-md-6 col-lg-6">
+            <input type="text" class="form-control" id="planName" placeholder="Name of the plan">
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="container center">
+      <div class="row">
+        <div class="col-xs-12 col-centered">
+          <a class="btn-lg btn-info" href="creator_page_2.html">Create</a>
+          <!--           <input type="button" class="btn-lg btn-info" value="Create">-->
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
