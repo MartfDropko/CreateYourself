@@ -199,17 +199,6 @@ Default Theme
 /* ------------------------------
 custom slider
 ---------------------------------*/
-.slider-progress{
-    position:absolute;
-    top:0;
-    left:0;
-    background-color: #8ecc3b;
-    height:5px;
-    -webkit-animation: myfirst 5000ms ease-in-out;
-    -moz-animation: myfirst 5000ms ease-in-out;
-    -ms-animation: myfirst 5000ms ease-in-out;
-    animation: myfirst 5000ms ease-in-out;
-}
 .s-tb{
     display: table;
     height: 100%;
