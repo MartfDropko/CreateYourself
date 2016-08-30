@@ -47,11 +47,13 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <header>
 
-      <!-- Navigation starts Here -->
+    <header>
+      <!-- Navigation Area Start Here -->
+
       <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
 
+         <!-- Brand and toggle get grouped for better mobile display starts Here-->
          <!-- Brand and toggle get grouped for better mobile display starts Here-->
         <div class="navbar-header">
           <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -66,12 +68,18 @@
 
        <!-- Collection of nav links for toggling starts Here-->
         <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="hidden"><a href="#">Profile</a></li>
+            <li class="hidden"><a href="creator_page_2.html">Creator of plans</a></li>
+            <li class="hidden"><a href="#">Calculators</a></li>
+          </ul>
           <ul class="nav navbar-nav navbar-right" id="nav">
             <li class="current"><a href="index.html">Home</a></li>
             <li><a href="#about">About us</a></li>
             <li><a href="#gallery">Plans</a></li>
             <li><a href="#getintouch">Contact us</a></li>
             <li><a href="#login">Login</a></li>
+            <li class="hidden"><a href="#">Account settings</a></li>
           </ul>
         </div>
         <!-- Collection of nav links for toggling ends Here-->
@@ -80,8 +88,9 @@
       <!-- Navigation ends Here -->
 
     </header>
-    <!-- slider -->
-    <div class="slider-area">
+
+    <!-- Slider Start Here -->
+    <section class="slider-area">
       <div class="bend niceties preview-2">
         <div id="ensign-nivoslider" class="slides">
           <img src="img/slides/slide1.jpg" alt="image" title="#slider-direction-1" />
@@ -106,10 +115,11 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- slider end-->
+    </section>
+    <!-- Slider End Here-->
+
     <!-- About Us Area Start Here -->
-    <div id="about">
+    <section id="about">
       <div class="about-area">
         <div class="container">
           <div class="row">
@@ -125,12 +135,13 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- About Us Area End Here -->
 
     <!-- Gallery Section Area Start Here -->
-    <div id="gallery">
+    <section id="gallery">
       <div class="gallery-area">
+
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-md-12">
@@ -147,6 +158,7 @@
             </div>
           </div>
         </div>
+
         <div class="portfolioContainer">
           <div class="single-item body-builder">
             <img src="img/gallery/1.jpg" alt="image">
@@ -221,13 +233,15 @@
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-    <!-- Gallery Section Area Start Here -->
+    </section>
+    <!-- Gallery Section Area End Here -->
 
     <!-- Contact Section Area Start Here -->
-    <div id="getintouch">
+    <section id="getintouch">
       <div class="contact-us-area">
+
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -276,39 +290,43 @@
             </div>
           </div>
         </div>
-        <footer class="footer-area">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="section-tilte-area">
-                  <h2>Get In Touch</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="footer-left-text">
-                  <p>Lviv-2016 &copy; Team name. All rights reserved.</p>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="footer-right-social-media">
-                  <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i>Google Plus</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </div>
-    </div>
-    <!-- Contact Section Area Start Here -->
+	  </div>
+	</section>
+	<!-- Contact Section Area End Here -->
+
+	<!-- Footer Area Start Here -->
+	<footer class="footer-area">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="section-tilte-area">
+			  <h2>Get In Touch</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="container">
+		<div class="row">
+		  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<div class="footer-left-text">
+			  <p>Lviv-2016 &copy; Team name. All rights reserved.</p>
+			</div>
+		  </div>
+		  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<div class="footer-right-social-media">
+			  <ul>
+				<li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+				<li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+				<li><a href="#"><i class="fa fa-google-plus"></i>Google Plus</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</footer>
+	<!-- Footer Area End Here -->
+
   </div>
   <!-- JS -->
   <!-- jquery js -->
