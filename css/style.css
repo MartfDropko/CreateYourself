@@ -672,3 +672,34 @@ body {
     padding: 15px;
     background: #0184BD;
 }
+
+/*-------------------------------------
+ 9. Calculators
+ --------------------------------------*/
+
+ .container-form{
+  border: 1px solid lightgrey;
+  margin-bottom:  60px;
+  margin-top: 40px;
+  padding: 0;
+ }
+ .nav-tabs{
+  text-align: center;
+  margin:0 ;
+  padding: 0;
+ }
+ .nav-tabs .li-item{
+  margin: 0;
+  padding: 0;
+ }
+ .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  background-color: #0184BD;
+  color: #fff;
+ }
+ .tab-content{
+  margin-top: 20px;
+ }
+.btn-default:hover{
+  background-color: #0184BD;
+  color: #fff;
+ }
